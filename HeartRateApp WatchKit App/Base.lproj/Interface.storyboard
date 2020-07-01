@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="13771" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="aLH-k8-FHN">
+    <device id="watch38" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="watchOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="13756"/>
+    </dependencies>
+    <scenes>
+        <!--Exercise Interface Controller-->
+        <scene sceneID="ux1-Du-n5z">
+            <objects>
+                <controller id="aLH-k8-FHN" customClass="ExerciseInterfaceController" customModule="HeartRateApp_WatchKit_Extension">
+                    <items>
+                        <button width="1" alignment="left" title="Walking" id="v81-xo-Ao8">
+                            <connections>
+                                <action selector="walkingButtonPress" destination="aLH-k8-FHN" id="lCc-2h-lnI"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" title="Running" id="0Ch-xT-RhC">
+                            <connections>
+                                <action selector="runningButtonPress" destination="aLH-k8-FHN" id="qkY-7R-Wd1"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" title="Sleeping" id="sh5-cy-qIl">
+                            <connections>
+                                <action selector="sleepingButtonPress" destination="aLH-k8-FHN" id="owS-yr-8ZX"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" title="Choose an Exercise" id="1bf-xd-tOy">
+                            <connections>
+                                <action selector="changeScreenColor" destination="aLH-k8-FHN" id="zy6-YB-Ack"/>
+                                <segue destination="AgC-eL-Hgc" kind="push" id="z6K-Z1-uSh"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <connections>
+                        <outlet property="Running" destination="0Ch-xT-RhC" id="mcN-he-fE5"/>
+                        <outlet property="Sleeping" destination="sh5-cy-qIl" id="weo-mM-qDB"/>
+                        <outlet property="Walking" destination="v81-xo-Ao8" id="KD2-iU-EOL"/>
+                        <outlet property="changeScreen" destination="1bf-xd-tOy" id="bqK-Cb-kH9"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="-10" y="345"/>
+        </scene>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="HeartRateApp_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <button width="1" alignment="left" title="Start" id="ohQ-XW-V0T">
+                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <color key="backgroundColor" red="0.012865800947581274" green="1" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <fontDescription key="font" type="system" pointSize="30"/>
+                            <connections>
+                                <action selector="buttonPress" destination="AgC-eL-Hgc" id="Ecf-iH-ee8"/>
+                            </connections>
+                        </button>
+                        <label height="46" alignment="left" text="No Exercise Selected" id="dmh-sK-FmO"/>
+                        <label width="134" height="32" alignment="left" text="Heart Rate: " id="i9u-tZ-q3H"/>
+                        <label height="18" alignment="left" text="..." id="J09-fV-zwk"/>
+                    </items>
+                    <connections>
+                        <outlet property="bpm" destination="dmh-sK-FmO" id="vrr-Rq-2gr"/>
+                        <outlet property="bpmActual" destination="J09-fV-zwk" id="meu-wU-xWy"/>
+                        <outlet property="displayTest" destination="i9u-tZ-q3H" id="hMR-ht-Wba"/>
+                        <outlet property="startButton" destination="ohQ-XW-V0T" id="hZr-aJ-ezo"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="220" y="345"/>
+        </scene>
+        <!--Static Notification Interface Controller-->
+        <scene sceneID="AEw-b0-oYE">
+            <objects>
+                <notificationController id="YCC-NB-fut">
+                    <items>
+                        <label alignment="left" text="Alert Label" id="IdU-wH-bcW"/>
+                    </items>
+                    <notificationCategory key="notificationCategory" identifier="myCategory" id="JfB-70-Muf"/>
+                    <connections>
+                        <outlet property="notificationAlertLabel" destination="IdU-wH-bcW" id="JKC-fr-R95"/>
+                        <segue destination="4sK-HA-Art" kind="relationship" relationship="dynamicNotificationInterface" id="kXh-Jw-8B1"/>
+                    </connections>
+                </notificationController>
+            </objects>
+            <point key="canvasLocation" x="220" y="643"/>
+        </scene>
+        <!--Notification Controller-->
+        <scene sceneID="ZPc-GJ-vnh">
+            <objects>
+                <controller id="4sK-HA-Art" customClass="NotificationController" customModule="HeartRateApp_WatchKit_App" customModuleProvider="target"/>
+            </objects>
+            <point key="canvasLocation" x="468" y="643"/>
+        </scene>
+    </scenes>
+</document>
