@@ -79,6 +79,7 @@
                 <notificationController id="YCC-NB-fut">
                     <items>
                         <label alignment="left" text="Alert Label" id="IdU-wH-bcW"/>
+                        <table alignment="left" id="gbl-Fm-4ej"/>
                     </items>
                     <notificationCategory key="notificationCategory" identifier="myCategory" id="JfB-70-Muf"/>
                     <connections>
