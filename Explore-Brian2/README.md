@@ -1,6 +1,9 @@
 # Investigate Brian2
 
+Need to  add Diehl and Cook paper citation here
+and short description of implementing testing scenario
 
+move repository to this folder
 
 
 
