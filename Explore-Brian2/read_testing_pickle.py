@@ -24,5 +24,6 @@ print(new_dict.keys())
 #   display x - image
 #
 
-plt.title('This sample was labeled as the number :' + new_dict[b'y'][1])
+plt.title('This sample was labeled as the number :' + str(new_dict[b'y'][1]))
 plt.imshow(new_dict[b'x'][1])
+plt.show()
