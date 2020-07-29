@@ -17,3 +17,7 @@ GRF described inLobo, Jesus L., et al. "Evolving spiking neural networks for onl
 and Bohte, Sander M., Joost N. Kok, and Han La Poutre. "Error-backpropagation in temporally encoded networks of spiking neurons." Neurocomputing 48.1-4 (2002): 17-37.
 
 Uploaded script wfdb_grf_explore.py
+
+
+denisesd@email.sc.edu
+@2020 dsd
