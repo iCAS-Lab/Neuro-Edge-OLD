@@ -1,4 +1,4 @@
-# Investigate Brian2
+# Investigate Brian2 and STDP implementation with MNIST data
 
 Diehl, Peter U., and Matthew Cook. "Unsupervised learning of digit recognition using spike-timing-dependent plasticity." Frontiers in computational neuroscience 9 (2015): 99.
 
