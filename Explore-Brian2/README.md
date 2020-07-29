@@ -1,7 +1,11 @@
 # Investigate Brian2
 
-Need to  add Diehl and Cook paper citation here
-and short description of implementing testing scenario
+Diehl, Peter U., and Matthew Cook. "Unsupervised learning of digit recognition using spike-timing-dependent plasticity." Frontiers in computational neuroscience 9 (2015): 99.
+
+1. implement Diehl and Cook Repository
+2. We are working on modifying Diehl implementation on Python 2 to Python 3
+3. Testing different encoding schemes for SNN's
+
 
 move repository to this folder
 
