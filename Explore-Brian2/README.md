@@ -1,8 +1,20 @@
+# Benchmark Dataset WISDM Smartphone and Smartwatch Activity and Biometrics Dataset Data Set
+Smartphone and Smartwatch-Based Biometrics Using Activities of Daily Living. IEEE Access, 7:133190-133202, Sept. 2019.
+1.  Extract watch accelerometer readings and load.  ETL program written in python and pandas.
+2.  Plot Input Signals XYZ per 18 activities
+3.  Raw readings connected to Simple LIF neuron 
+    (not all activities will cause LIF to fire)
+4.  Start Encoding Schemes
+
+
+# Simplify.  LIF neuron with Brian2 simulation
+1. Replicate time series simple array connected to LIF neuron
+2. Benchmark Logic Gates
 
 
 # Investigate Deihl and Cook Algorithm with UCI HAR
 Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. A Public Domain Dataset for Human Activity Recognition Using Smartphones. 21th European Symposium on Artificial Neural Networks, Computational Intelligence and Machine Learning, ESANN 2013. Bruges, Belgium 24-26 April 2013.
-1. Time series data transformed for Deep Learning.
+1. Time series data was transformed for Deep Learning, LSTM
 2. Studied Github repository on Deep Learning and this data set
 3. Not suitable for time series study and SNN without more information
 
