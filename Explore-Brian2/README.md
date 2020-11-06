@@ -27,10 +27,10 @@ Smartphone and Smartwatch-Based Biometrics Using Activities of Daily Living. IEE
     (not all activities will cause LIF to fire)
 
 ## Walking pattern (LIF spikes)
-<figure><img src="imgs/Test_Subject%20all_1600_walking_watch_accel_thr_10.png" height="50%"><figcaption style="text-align:center">Input and LIF spikes from 10 sec sample from subject 1600 accel watch walking</figcaption></figure>
+<figure><img src="imgs/Test_Subject%20all_1600_walking_watch_accel_thr_10.png" style="height:auto;width:400px"><figcaption style="text-align:center">Input and LIF spikes from 10 sec sample from subject 1600 accel watch walking</figcaption></figure>
 
 ## Eating Pasta pattern (LIF never spikes)
-<figure><img src="imgs/Test_Subject%20all_1600_pasta_watch_accel_thr_10.png" height="50%"><figcaption style="text-align:center">Input and LIF spikes from 10 sec sample from subject 1600 accel watch EATING PASTA</figcaption></figure>
+<figure><img src="imgs/Test_Subject%20all_1600_pasta_watch_accel_thr_10.png" style="height:auto;width:400px"><figcaption style="text-align:center">Input and LIF spikes from 10 sec sample from subject 1600 accel watch EATING PASTA</figcaption></figure>
 
 
 # Simplify.  LIF neuron with Brian2 simulation
