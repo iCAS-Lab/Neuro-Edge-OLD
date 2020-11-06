@@ -6,7 +6,8 @@
 3. Bohte, Sander M., Joost N. Kok, and Han La Poutre. "Error-backpropagation in temporally encoded networks of spiking neurons." Neurocomputing 48.1-4 (2002): 17-37.
 4. Kasabov, Nikola, et al. "Dynamic evolving spiking neural networks for on-line spatio-and spectro-temporal pattern recognition." Neural Networks 41 (2013): 188-201.
 5. wisdm_grf.py copyright@dsd2020
-
+# sample 1600 accel watch walking
+<figure><img src="imgs/output_subject_10_walking.png"><figcaption>GRF by 10 neurons from subject 1600 accel watch walking</figcaption></figure>
 
 
 ## local optima 
@@ -15,7 +16,7 @@ based on scipy find_peaks
 1. wisdm_spikes.py copyright@dsd2020
 
 # sample 1600 accel watch walking
-<figure><img src="imgs/Spikes_walking_160010.png"><figcaption>Sample 10 seconds from subject 1600 accel watch walking</figcaption></figure>
+<figure><img src="imgs/Spikes_walking_160010.png"><figcaption>Spike trains from sample 10 seconds from subject 1600 accel watch walking</figcaption></figure>
 
 # Benchmark Dataset WISDM Smartphone and Smartwatch Activity and Biometrics Dataset Data Set
 Smartphone and Smartwatch-Based Biometrics Using Activities of Daily Living. IEEE Access, 7:133190-133202, Sept. 2019.
