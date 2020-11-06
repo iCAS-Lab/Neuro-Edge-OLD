@@ -10,14 +10,20 @@
 # sample 1600 accel watch walking by GRF with 10 neurons
 <figure><img src="imgs/output_subject_10_walking.png"><figcaption>GRF with 10 neurons from subject 1600 accel watch walking</figcaption></figure>
 
+# sample 1600 accel watch pasta by GRF with 10 neurons
+<figure><img src="imgs/output_subject_10_pasta.png"><figcaption>GRF with 10 neurons from subject 1600 accel pasta walking</figcaption></figure>
+
 
 ## LOCAL OPTIMA
 (had my own method. then found scipy method.  cleaner and so scipy)
 based on scipy find_peaks
 1. wisdm_spikes.py copyright@dsd2020
 
-## Spike trains from sample 10 seconds by LOCAL OPTIMA
+# Spike trains from sample 10 seconds by LOCAL OPTIMA WALKING 
 <figure><img src="imgs/Spikes_walking_160010.png"><figcaption style="text-align:center">Spike trains from sample 10 seconds from subject 1600 accel watch walking</figcaption></figure>
+
+# Spike trains from sample 10 seconds by LOCAL OPTIMA EATING PASTA 
+<figure><img src="imgs/Spikes_pasta_160010.png"><figcaption style="text-align:center">Spike trains from sample 10 seconds from subject 1600 accel watch pasta</figcaption></figure>
 
 # Benchmark Dataset WISDM Smartphone and Smartwatch Activity and Biometrics Dataset Data Set
 Smartphone and Smartwatch-Based Biometrics Using Activities of Daily Living. IEEE Access, 7:133190-133202, Sept. 2019.
