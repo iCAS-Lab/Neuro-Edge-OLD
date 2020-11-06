@@ -14,6 +14,9 @@
 based on scipy find_peaks
 1. wisdm_spikes.py copyright@dsd2020
 
+# sample 1600 accel watch walking
+<figure><img src="imgs/Spikes_walking_160010.png"><figcaption>Sample 10 seconds from subject 1600 accel watch walking</figcaption></figure>
+
 # Benchmark Dataset WISDM Smartphone and Smartwatch Activity and Biometrics Dataset Data Set
 Smartphone and Smartwatch-Based Biometrics Using Activities of Daily Living. IEEE Access, 7:133190-133202, Sept. 2019.
 1.  Extract watch accelerometer readings and load.  ETL program written in python and pandas.
