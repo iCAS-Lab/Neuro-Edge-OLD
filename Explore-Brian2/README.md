@@ -11,7 +11,7 @@
 <figure><img src="imgs/output_subject_10_walking.png"><figcaption>GRF with 10 neurons from subject 1600 accel watch walking</figcaption></figure>
 
 # sample 1600 accel watch pasta by GRF with 10 neurons
-<figure><img src="imgs/output_subject_10_pasta.png"><figcaption>GRF with 10 neurons from subject 1600 accel pasta walking</figcaption></figure>
+<figure><img src="imgs/output_subject_10_pasta.png" alt="pasta"><figcaption>GRF with 10 neurons from subject 1600 accel pasta walking</figcaption></figure>
 
 
 ## LOCAL OPTIMA
