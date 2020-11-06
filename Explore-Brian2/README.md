@@ -16,7 +16,7 @@
 based on scipy find_peaks
 1. wisdm_spikes.py copyright@dsd2020
 
-# Spike trains from sample 10 seconds by LOCAL OPTIMA
+## Spike trains from sample 10 seconds by LOCAL OPTIMA
 <figure><img src="imgs/Spikes_walking_160010.png"><figcaption style="text-align:center">Spike trains from sample 10 seconds from subject 1600 accel watch walking</figcaption></figure>
 
 # Benchmark Dataset WISDM Smartphone and Smartwatch Activity and Biometrics Dataset Data Set
@@ -25,7 +25,12 @@ Smartphone and Smartwatch-Based Biometrics Using Activities of Daily Living. IEE
 2.  Plot Input Signals XYZ per 18 activities
 3.  Raw readings connected to Simple LIF neuron 
     (not all activities will cause LIF to fire)
-4.  Start Encoding Schemes
+
+## Walking pattern (LIF spikes)
+<figure><img src="imgs/Test_Subject%20all_1600_walking_watch_accel_thr_10.png"><figcaption style="text-align:center">Input and LIF spikes from 10 sec sample from subject 1600 accel watch walking</figcaption></figure>
+
+## Eating Pasta pattern (LIF never spikes)
+<figure><img src="imgs/Test_Subject%20all_1600_pasta_watch_accel_thr_10.png"><figcaption style="text-align:center">Input and LIF spikes from 10 sec sample from subject 1600 accel watch EATING PASTA</figcaption></figure>
 
 
 # Simplify.  LIF neuron with Brian2 simulation
