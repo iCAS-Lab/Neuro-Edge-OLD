@@ -1,4 +1,15 @@
 # Encoding Schemes for WISDM sensor data
+
+## LOCAL OPTIMA
+(had my own method. then found scipy method.  cleaner and so scipy)
+based on scipy find_peaks
+1. wisdm_spikes.py copyright@dsd2020
+
+# Spike trains from sample 10 seconds by LOCAL OPTIMA WALKING 
+<figure><img src="imgs/Spikes_walking_160010.png"></figure>
+
+# Spike trains from sample 10 seconds by LOCAL OPTIMA PASTA 
+<figure><img src="imgs/Spikes_pasta_160010.png"></figure>
  
 ## GRF - sources
 1. Lobo, Jesus L., et al. "Exploiting the stimuli encoding scheme of evolving Spiking Neural Networks for stream learning." Neural Networks 123 (2020): 118-133.
@@ -8,22 +19,13 @@
 5. wisdm_grf.py copyright@dsd2020
 
 # sample 1600 accel watch walking by GRF with 10 neurons
-<figure><img src="imgs/output_subject_10_walking.png"><figcaption>GRF with 10 neurons from subject 1600 accel watch walking</figcaption></figure>
+<figure><img src="imgs/output_subject_10_walking.png"></figure>
 
 # sample 1600 accel watch pasta by GRF with 10 neurons
-<figure><img src="imgs/output_subject_10_pasta.png" alt="pasta"><figcaption>GRF with 10 neurons from subject 1600 accel pasta walking</figcaption></figure>
+<figure><img src="imgs/output_subject_10_pasta.png" alt="pasta"></figure>
 
 
-## LOCAL OPTIMA
-(had my own method. then found scipy method.  cleaner and so scipy)
-based on scipy find_peaks
-1. wisdm_spikes.py copyright@dsd2020
 
-# Spike trains from sample 10 seconds by LOCAL OPTIMA WALKING 
-<figure><img src="imgs/Spikes_walking_160010.png"><figcaption style="text-align:center">Spike trains from sample 10 seconds from subject 1600 accel watch walking</figcaption></figure>
-
-# Spike trains from sample 10 seconds by LOCAL OPTIMA EATING PASTA 
-<figure><img src="imgs/Spikes_pasta_160010.png"><figcaption style="text-align:center">Spike trains from sample 10 seconds from subject 1600 accel watch pasta</figcaption></figure>
 
 # Benchmark Dataset WISDM Smartphone and Smartwatch Activity and Biometrics Dataset Data Set
 Smartphone and Smartwatch-Based Biometrics Using Activities of Daily Living. IEEE Access, 7:133190-133202, Sept. 2019.
@@ -32,11 +34,11 @@ Smartphone and Smartwatch-Based Biometrics Using Activities of Daily Living. IEE
 3.  Raw readings connected to Simple LIF neuron 
     (not all activities will cause LIF to fire)
 
-## Walking pattern (LIF spikes)
-<figure><img src="imgs/Test_Subject%20all_1600_walking_watch_accel_thr_10.png" style="height:auto;width:400px"><figcaption style="text-align:center">Input and LIF spikes from 10 sec sample from subject 1600 accel watch walking</figcaption></figure>
+## WALKING pattern (LIF spikes)
+<figure><img src="imgs/Test_Subject%20all_1600_walking_watch_accel_thr_10.png" style="height:auto;width:400px"></figure>
 
-## Eating Pasta pattern (LIF never spikes)
-<figure><img src="imgs/Test_Subject%20all_1600_pasta_watch_accel_thr_10.png" style="height:auto;width:400px"><figcaption style="text-align:center">Input and LIF spikes from 10 sec sample from subject 1600 accel watch EATING PASTA</figcaption></figure>
+## EATING PASTA pattern (LIF never spikes)
+<figure><img src="imgs/Test_Subject%20all_1600_pasta_watch_accel_thr_10.png" style="height:auto;width:400px"></figure>
 
 
 # Simplify.  LIF neuron with Brian2 simulation
@@ -44,7 +46,8 @@ Smartphone and Smartwatch-Based Biometrics Using Activities of Daily Living. IEE
 2. Benchmark Logic Gates
 
 # EXAMPLE
-<figure><img src="imgs/testcase.png"><figcaption>Simple Timed Array input LIF neuron. Displays input, synaptic output of LIF and Spikes</figcaption></figure>
+## Simple Timed Array input LIF neuron. Displays input, synaptic output of LIF and Spikes
+<figure><img src="imgs/testcase.png"></figure>
 
 
 
