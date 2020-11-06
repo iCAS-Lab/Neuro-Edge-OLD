@@ -5,12 +5,13 @@
 2. Dumoulin, Serge O., and Brian A. Wandell. "Population receptive field estimates in human visual cortex." Neuroimage 39.2 (2008): 647-660.
 3. Bohte, Sander M., Joost N. Kok, and Han La Poutre. "Error-backpropagation in temporally encoded networks of spiking neurons." Neurocomputing 48.1-4 (2002): 17-37.
 4. Kasabov, Nikola, et al. "Dynamic evolving spiking neural networks for on-line spatio-and spectro-temporal pattern recognition." Neural Networks 41 (2013): 188-201.
+wisdm_grf.py
 
 ## local optima 
 (had my own method. then found scipy method.  cleaner and so scipy)
 
 scipy find_peaks
-
+wisdm_spikes.py
 
 # Benchmark Dataset WISDM Smartphone and Smartwatch Activity and Biometrics Dataset Data Set
 Smartphone and Smartwatch-Based Biometrics Using Activities of Daily Living. IEEE Access, 7:133190-133202, Sept. 2019.
