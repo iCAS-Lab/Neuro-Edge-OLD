@@ -7,6 +7,8 @@
 4. Kasabov, Nikola, et al. "Dynamic evolving spiking neural networks for on-line spatio-and spectro-temporal pattern recognition." Neural Networks 41 (2013): 188-201.
 5. wisdm_grf.py copyright@dsd2020
 
+
+
 ## local optima 
 (had my own method. then found scipy method.  cleaner and so scipy)
 based on scipy find_peaks
