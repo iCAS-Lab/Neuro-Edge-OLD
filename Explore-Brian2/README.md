@@ -1,3 +1,17 @@
+# Encoding Schemes for WISDM sensor data
+ 
+## GRF - sources
+1. Lobo, Jesus L., et al. "Exploiting the stimuli encoding scheme of evolving Spiking Neural Networks for stream learning." Neural Networks 123 (2020): 118-133.
+2. Dumoulin, Serge O., and Brian A. Wandell. "Population receptive field estimates in human visual cortex." Neuroimage 39.2 (2008): 647-660.
+3. Bohte, Sander M., Joost N. Kok, and Han La Poutre. "Error-backpropagation in temporally encoded networks of spiking neurons." Neurocomputing 48.1-4 (2002): 17-37.
+4. Kasabov, Nikola, et al. "Dynamic evolving spiking neural networks for on-line spatio-and spectro-temporal pattern recognition." Neural Networks 41 (2013): 188-201.
+
+## local optima 
+(had my own method. then found scipy method.  cleaner and so scipy)
+
+scipy find_peaks
+
+
 # Benchmark Dataset WISDM Smartphone and Smartwatch Activity and Biometrics Dataset Data Set
 Smartphone and Smartwatch-Based Biometrics Using Activities of Daily Living. IEEE Access, 7:133190-133202, Sept. 2019.
 1.  Extract watch accelerometer readings and load.  ETL program written in python and pandas.
