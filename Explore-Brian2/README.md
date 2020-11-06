@@ -32,6 +32,10 @@ Smartphone and Smartwatch-Based Biometrics Using Activities of Daily Living. IEE
 1. Replicate time series simple array connected to LIF neuron
 2. Benchmark Logic Gates
 
+# EXAMPLE
+<figure><img src="imgs/testcase.png"><figcaption>Simple Timed Array input LIF neuron. Displays input, synaptic output of LIF and Spikes</figcaption></figure>
+
+
 
 # Investigate Deihl and Cook Algorithm with UCI HAR
 Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. A Public Domain Dataset for Human Activity Recognition Using Smartphones. 21th European Symposium on Artificial Neural Networks, Computational Intelligence and Machine Learning, ESANN 2013. Bruges, Belgium 24-26 April 2013.
