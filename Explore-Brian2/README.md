@@ -1,8 +1,16 @@
-# BRIAN2 multilayer SNN
+# BRIAN2 
+
+## multilayer SNN
 With much research and trial and error, I finally figured out how to make a multi-layer SNN with Brian2
+1. stdp_demo_and_3.py copyright@dsd2020
 
 <figure><img src="imgs/Input_layer_to_hidden.png"></figure>
 <figure><img src="imgs/output_layer.png"></figure>
+
+## weights from multilayer SNN-just an example-not real sensor data.
+
+<figure><img src="imgs/stdp_demo.pdf"></figure>
+
 # Encoding Schemes for WISDM sensor data
 
 ## LOCAL OPTIMA
