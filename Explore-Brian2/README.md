@@ -1,3 +1,8 @@
+# BRIAN2 multilayer SNN
+With much research and trial and error, I finally figured out how to make a multi-layer SNN with Brian2
+
+<figure><img src="imgs/input_layer_to_hidden.png"></figure>
+<figure><img src="imgs/output_layer.png"></figure>
 # Encoding Schemes for WISDM sensor data
 
 ## LOCAL OPTIMA
