@@ -30,7 +30,8 @@ With much research and trial and error, I finally figured out how to make a mult
 
 ## weights from multilayer SNN-just an example-not real sensor data.
 
-<figure><a href="imgs/stdp_demo.pdf"></a></figure>
+<figure><img="imgs/Demo_Weight10.png"></figure>
+<figure><img="imgs/Demo_Weight11.png"></figure>
 
 # Encoding Schemes for WISDM sensor data
 
