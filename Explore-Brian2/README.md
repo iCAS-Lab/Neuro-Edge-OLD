@@ -1,7 +1,8 @@
 # Loihi Tutorials
  
 
-# BRIAN2 
+# BRIAN2
+Next explore hyperparameter suite for optimal settings on SNN to learn with simple STDP
 
 ## multilayer SNN
 
