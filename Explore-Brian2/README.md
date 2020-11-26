@@ -1,6 +1,27 @@
 # BRIAN2 
 
 ## multilayer SNN
+
+## Sample 2 input neurons and 1 threshold/bias fed into hidden layer with 4 neurons and then one output neuron:
+
+## Output at each layer:
+### 0 0 0  input
+[0 0 0]
+[0 0 0 0]
+[0]    output
+### 10 10 0 input
+[9 9 0]
+[8 5 0 7]
+[8]    output
+### 10 0 0 input
+[9 0 0]
+[1 1 0 0]
+[0]    output
+### 0 10 0 input
+[0 9 0]
+[0 0 1 1]
+[0]   output
+
 With much research and trial and error, I finally figured out how to make a multi-layer SNN with Brian2
 1. stdp_demo_and_3.py copyright@dsd2020
 
